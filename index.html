@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/remodal.css" rel="stylesheet">
+  <link href="./css/remodal-default-theme.css" rel="stylesheet">
+  <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="./js/remodal.min.js"></script>
+</head>
+<body>
+  <h1>jquery起動種類</h1>
+  <div class="btnLink">
+    <div>
+      <a href="./click.html" class="btn-square-pop">クリックイベント</a>
+    </div>
+    <div>
+      <a href=".chenge.html" class="btn-square-pop">チェンジイベント</a>
+    </div>
+    <div>
+      <a href="" class="btn-square-pop">マウスイベント</a>
+    </div>
+    <div>
+      <a href="" class="btn-square-pop">バリデーション</a>
+    </div>
+    <div class="remodal-bg">
+      <a href="#modal" class="btn-square-pop">モーダル</a>
+    </div>
+    <div>
+      <a href=""></a>
+    </div>
+    <div>
+      <a href=""></a>
+    </div>
+    <div>
+      <a href=""></a>
+    </div>
+    <div>
+      <a href=""></a>
+    </div>
+  </div>
+
+  <div class="remodal" data-remodal-id="modal">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h1>モーダルのタイトル</h1>
+    <p>モーダルの本文</p>
+    <br>
+    <button data-remodal-action="cancel" class="remodal-cancel">Cancelボタン</button>
+    <button data-remodal-action="confirm" class="remodal-confirm">OKボタン</button>
+  </div>
+</body>
+</html>

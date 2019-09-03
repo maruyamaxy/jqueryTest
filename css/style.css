@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.btnLink {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 65%;
+  align-items: center;
+  flex-direction: initial;
+  margin: 10% auto;
+}
+
+.btn-square-pop {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #fd9535;/*背景色*/
+  border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
+  border-radius: 4px;/*角の丸み*/
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+}
+
+.btn-square-pop:active {
+  border-bottom: solid 2px #fd9535;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+.clickAll {
+  text-align: center;
+}
+
+.clickAll div {
+  margin: 30px 0 30px 0;
+}
+
+.btn-square-little-rich {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #03A9F4;/*色*/
+  border: solid 1px #0f9ada;/*線色*/
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.back {
+  width: 130px;
+  height: 130px;
+  background: #f00;
+  text-align: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.back2 {
+  width: 130px;
+  height: 130px;
+  background: #f00;
+  text-align: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.feedIn {
+  width: 130px;
+  height: 130px;
+  background: #0f0;
+  text-align: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.feedOut {
+  width: 130px;
+  height: 130px;
+  background: #000;
+  text-align: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #3f98ef;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
