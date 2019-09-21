@@ -26,7 +26,7 @@ $(function() {
 
   // 文字追加
   $('.addCharacter').on('click', function() {
-    $('.text2').append('追加されした');
+    $('.text2').append('追加されました。');
   });
 
   // 文字コピー
