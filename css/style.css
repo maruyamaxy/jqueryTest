@@ -16,6 +16,7 @@ h1 {
   align-items: center;
   flex-direction: initial;
   margin: 10% auto;
+ flex-wrap: wrap;
 }
 
 .btn-square-pop {
