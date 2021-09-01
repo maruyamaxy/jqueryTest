@@ -13,7 +13,9 @@ $(function() {
   var mySwiper = new Swiper ('.swiper-container', {
     effect: "flip",
     loop: true,
+    autoplay: 3000,
     pagination: '.swiper-pagination',
+    paginationClickable: true,
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
   })
