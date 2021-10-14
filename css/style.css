@@ -160,3 +160,36 @@ h1 {
   background: #fafafa;
   color: #697d86;
 }
+
+pre {
+    position: relative;
+    padding: 20px 50px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.line-numbers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-right: 1px solid #999;
+    width: 50px;
+}
+
+.line-numbers > span {
+    float: left;
+    display: block;
+    counter-increment: linenumber;
+    text-align: right;
+    width: 100%;
+}
+
+.line-numbers > span::after {
+    content: counter(linenumber);
+}
+
